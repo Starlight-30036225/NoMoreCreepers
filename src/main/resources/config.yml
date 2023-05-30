@@ -1,37 +1,49 @@
-CREEPER:
-  SPAWN: false
-  ##Can the creeper explode?(true by default)
-  EXPLODES: true
-ZOMBIE:
-  SPAWN: true
+##CONFIG FILE
+##NO MORE CREEPERS VERSION 1.0.2
+##FOR VERSION 1.19.4
+##CREATED BY ASTERIA LIGHT GAMES
+
+SPAWN-PREVENTION:
+#Any mob in this section can be disabled by changing spawn to false
+#Creepers are false by default
+  CREEPER:
+    SPAWN: false
+  ZOMBIE:
+    SPAWN: true
+  SKELETON:
+    SPAWN: true
+  SPIDER:
+    SPAWN: true
+  ENDERMAN:
+    SPAWN: true
+
+ADDITIONAL-FEATURES:
+  ##Can creepers explode?(true by default)
+  CREEPERS-EXPLODE: true
+
   ##Can zombie's call for reinforcements? (true by default)
-  REINFORCEMENTS:
-SKELETON:
-  SPAWN: true
+  ZOMBIE-REINFORCEMENTS: true
+
   ##Should skeletons spawn with bows (true by default)
-  BOWS: true
-SPIDER:
-  SPAWN: true
-ENDERMAN:
-  SPAWN: true
+  SKELETON-BOWS: true
+
   ##Can endermen teleport
-  TELEPORT: true
+  ENDERMAN-TELEPORT: true
 
 
-#Just for fun
+
+FUN:
+  #Just for fun
 
 #Replace 1/1000 zombies with a giant?
-SPAWNGIANTS: true
+  SPAWN-GIANTS: false
 
-#All zombies spawn as babys
-ALLBABYS: true
-
-#Should all vindicators be johny?
-HERESJONHY: true
+#Should all vindicators be johnny?
+  HERES-JOHNNY: false
 
 #Should all sheep be rainbows?
-RAINBOWSHEEP: true
+  RAINBOW-SHEEP: false
 
 #should creepers explode on death
-MARTYRDOM: true
+  MARTYRDOM: false
 
