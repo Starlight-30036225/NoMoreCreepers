@@ -1,0 +1,4 @@
+name: NoMoreCreepers
+version: '1.0-1'
+main: org.asteria.nomorecreepers.NoMoreCreepers
+api-version: 1.19
