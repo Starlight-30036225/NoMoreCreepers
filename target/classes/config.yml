@@ -1,0 +1,10 @@
+CREEPER:
+  SPAWN: false
+ZOMBIE:
+  SPAWN: true
+SKELETON:
+  SPAWN: true
+SPIDER:
+  SPAWN: true
+ENDERMAN:
+  SPAWN: true
