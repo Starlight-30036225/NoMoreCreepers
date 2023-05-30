@@ -1,10 +1,37 @@
 CREEPER:
   SPAWN: false
+  ##Can the creeper explode?(true by default)
+  EXPLODES: true
 ZOMBIE:
   SPAWN: true
+  ##Can zombie's call for reinforcements? (true by default)
+  REINFORCEMENTS:
 SKELETON:
   SPAWN: true
+  ##Should skeletons spawn with bows (true by default)
+  BOWS: true
 SPIDER:
   SPAWN: true
 ENDERMAN:
   SPAWN: true
+  ##Can endermen teleport
+  TELEPORT: true
+
+
+#Just for fun
+
+#Replace 1/1000 zombies with a giant?
+SPAWNGIANTS: true
+
+#All zombies spawn as babys
+ALLBABYS: true
+
+#Should all vindicators be johny?
+HERESJONHY: true
+
+#Should all sheep be rainbows?
+RAINBOWSHEEP: true
+
+#should creepers explode on death
+MARTYRDOM: true
+

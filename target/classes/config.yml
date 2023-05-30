@@ -1,10 +1,18 @@
 CREEPER:
   SPAWN: false
+  ##Can the creeper explode?(true by default)
+  EXPLODES: true
 ZOMBIE:
   SPAWN: true
+  ##Can zombie's call for reinforcements? (true by default)
+  REINFORCEMENTS:
 SKELETON:
   SPAWN: true
+  ##Should skeletons spawn with bows (true by default)
+  BOWS: true
 SPIDER:
   SPAWN: true
 ENDERMAN:
   SPAWN: true
+  ##Can endermen teleport
+  TELEPORT: true
